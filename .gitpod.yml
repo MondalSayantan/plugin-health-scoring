@@ -6,6 +6,9 @@ tasks:
 
       # Download and Install Maven 3.9.0
       yes Y | sdk install maven 3.9.0
+
+      # Nodejs
+      nvm install 18.10.0
     init: |
       # Build using Maven
       mvn package -Dmaven.test.skip
