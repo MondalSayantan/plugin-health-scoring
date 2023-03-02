@@ -9,11 +9,3 @@ tasks:
     init: |
       # Build using Maven
       mvn package -Dmaven.test.skip
-
-# vscode:
-#   extensions:
-    # - redhat.java
-    # - vscjava.vscode-java-debug
-    # - vscjava.vscode-java-test
-    # - vscjava.vscode-maven
-    # - vscjava.vscode-java-dependency
